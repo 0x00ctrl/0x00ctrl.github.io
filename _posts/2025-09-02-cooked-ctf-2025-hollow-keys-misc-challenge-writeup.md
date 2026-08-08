@@ -3,6 +3,7 @@ title: "Cooked CTF 2025 Hollow Keys Misc Challenge Write-up"
 date: 2025-09-02 20:00:00 +0500
 categories: [CTF, CookedCTF_2025]
 tags: [steganography, audio, video, radio, fldigi]
+media_subpath: /assets/img/cookedctf2025/
 ---
 
 With this challenge we get a audio file `easy4.mp3`
