@@ -7,6 +7,7 @@ media_subpath: /assets/img/cookedctf2025/
 ---
 
 ![img1](nightmare1.webp)
+
 The description of the challenge says:
 
 ```bash
