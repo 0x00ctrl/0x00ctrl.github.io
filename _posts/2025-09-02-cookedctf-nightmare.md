@@ -29,7 +29,6 @@ So according to the description we can say something is shrouded (hidden)  in th
 
 We will first use `ffprobe` to display it's information.
 
-Press enter or click to view image in full size
 
 ![img2](nightmare2.webp)
 
@@ -47,8 +46,6 @@ So according to our output we have 1 audio streams, and two video streams. So th
 ```bash
 ffmpeg -i curs3d.mp4 -map 0:v:1 -c copy second_video.mp4
 ```
-
-Press enter or click to view image in full size
 
 ![img3](nightmare3.webp)
 
