@@ -8,7 +8,8 @@ media_subpath: /assets/img/cookedctf2025/
 
 ![img1](nightmare1.webp)
 
-The description of the challenge says:
+
+ The description of the challenge says:
 
 ```bash
 Two presences converge, one shrouded, one revealed. Which shadow must recede to illuminate the truth?
