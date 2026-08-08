@@ -29,7 +29,7 @@ To decode this transmission we will use the `FLdigi` tool.
 
 Installation: `sudo apt install fldigi` or for Windows install it from SourceForge
 
-
+![fldigi dashboard](/assets/img/cookedctf2025/hollowkey_1.webp)
 
 There is also a separate hint in the form of a QR code that came with the challenge, which tells the **baud rate 45.45** and the **7 bits** per character to choose in the **custom** Tx (Transmission) settings. To set these values click on **Op_Mode->RTTY->Custom and under RTTY click on Tx and apply the settings.**
 
@@ -38,3 +38,5 @@ Now it is listening for incoming transmissions, so let’s start playing our aud
 > **In Fldigi in Top left Click on File -> Audio -> Playback and choose the audio file**
 
 When the audio is played, the software starts decoding it character by  character and in the end we get a base64 encoded value which when  decoded, gives us the flag.
+
+![fldigi dashboard](/assets/img/cookedctf2025/hollowkey_2.webp)
