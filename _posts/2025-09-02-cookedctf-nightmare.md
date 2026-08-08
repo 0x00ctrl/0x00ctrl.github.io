@@ -6,6 +6,7 @@ tags: [steganography, audio, video, mp4, ffmpeg, codec]
 media_subpath: /assets/img/cookedctf2025/
 ---
 
+![img1](nightmare1.webp)
 The description of the challenge says:
 
 ```bash
@@ -28,7 +29,7 @@ We will first use `ffprobe` to display it's information.
 
 Press enter or click to view image in full size
 
-![img](nightmare)
+![img2](nightmare2.webp)
 
 A video file (like MP4) is like a container that holds two main things:
 
@@ -47,7 +48,7 @@ ffmpeg -i curs3d.mp4 -map 0:v:1 -c copy second_video.mp4
 
 Press enter or click to view image in full size
 
-![img](nih)
+![img3](nightmare3.webp)
 
 Now when you watch the second video you will see that the flag is encoded  in base64 and appears in 4 separate chunks in the subtitles throughout  the video.
 
