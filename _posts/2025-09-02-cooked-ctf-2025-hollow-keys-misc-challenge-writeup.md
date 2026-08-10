@@ -1,5 +1,5 @@
 ---
-title: "Cooked CTF 2025 Hollow Keys Misc Challenge Write-up"
+title: "Cooked CTF 2025 “Hollow Keys” Misc Challenge Write-up"
 date: 2025-09-02 20:00:00 +0500
 categories: [CTF, CookedCTF_2025]
 tags: [steganography, audio, video, radio, fldigi]
