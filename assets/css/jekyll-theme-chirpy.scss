@@ -1,0 +1,15 @@
+---
+---
+
+@use 'main
+{%- if jekyll.environment == 'production' -%}
+.bundle
+{%- endif -%}
+';
+
+#sidebar {
+  background-image: url('/assets/winter.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
