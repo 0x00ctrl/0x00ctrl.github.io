@@ -1,6 +1,5 @@
 ---
 # the default layout is 'page'
-icon: fas fa-info-circle
 order: 4
 html: true
 ---
@@ -17,16 +16,25 @@ Just a cybersecurity student, you can reach me on this mail -> [Hit me up](mailt
   <img src="https://img.shields.io/badge/bash-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white" alt="Bash" />
   <img src="https://img.shields.io/badge/nim-%23FFE953.svg?style=for-the-badge&logo=nim&logoColor=black" alt="Nim" />
   <img src="https://img.shields.io/badge/python-%233670A0.svg?style=for-the-badge&logo=python&logoColor=ffdd54" alt="Python" />
+</p>
+
+<p align="center">
   <img src="https://img.shields.io/badge/archlinux-%231793D1.svg?style=for-the-badge&logo=archlinux&logoColor=white" alt="Arch" />
   <img src="https://img.shields.io/badge/Debian-%23D70A53.svg?style=for-the-badge&logo=debian&logoColor=white" alt="Debian" />
   <img src="https://img.shields.io/badge/Kali-%23268BEE.svg?style=for-the-badge&logo=kalilinux&logoColor=white" alt="Kali" />
   <img src="https://img.shields.io/badge/lineageos-%23167C80.svg?style=for-the-badge&logo=lineageos&logoColor=white" alt="Lineageos" />
   <img src="https://img.shields.io/badge/parrot_security-%23000000.svg?style=for-the-badge&logo=parrotsecurity&logoColor=#15E0ED" alt="Parrot Security" />
+</p>
+
+<p align="center">
   <img src="https://img.shields.io/badge/tails-%2356347C.svg?style=for-the-badge&logo=tails&logoColor=white" alt="Tails" />
   <img src="https://img.shields.io/badge/ffmpeg-%23007808.svg?style=for-the-badge&logo=ffmpeg&logoColor=white" alt="Ffmpeg" />
   <img src="https://img.shields.io/badge/mysql-%234479A1.svg?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL" />
   <img src="https://img.shields.io/badge/virtualbox-%23183A61.svg?style=for-the-badge&logo=virtualbox&logoColor=white" alt="VirtualBox" />
   <img src="https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
+</p>
+
+<p align="center">
   <img src="https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
   <img src="https://img.shields.io/badge/Obsidian-%23483699.svg?style=for-the-badge&logo=obsidian&logoColor=white" alt="Obsidian" />
   <img src="https://img.shields.io/badge/blender-%23F5792A.svg?style=for-the-badge&logo=blender&logoColor=white" alt="Blender" />
