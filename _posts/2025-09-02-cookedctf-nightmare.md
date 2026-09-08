@@ -17,13 +17,13 @@ Two presences converge, one shrouded, one revealed. Which shadow must recede to 
 
 So according to the description we can say something is shrouded (hidden)  in this file. Let’s first use the OG tool for working with multimedia  files to analyze this video.
 
-### `*FFMPEG*`
+### `FFMPEG`
 
-*It comes pre-installed in almost every Linux distro but you can install it with* `*sudo apt install ffmpeg*`*.*
+*It comes pre-installed in almost every Linux distro but you can install it with* `sudo apt install ffmpeg`*.*
 
-`*FFmpeg*` *is a free and open-source software project consisting of a suite of  libraries and programs for handling video, audio, and other multimedia  files and streams. At its core is the command-line* `*ffmpeg*` *tool itself, designed for processing video and audio files. It is  widely used for format transcoding, basic editing (trimming and  concatenation), video scaling, video post-production effects, and  standards compliance (SMPTE, ITU).*
+`FFmpeg` *is a free and open-source software project consisting of a suite of  libraries and programs for handling video, audio, and other multimedia  files and streams. At its core is the command-line* `ffmpeg` *tool itself, designed for processing video and audio files. It is  widely used for format transcoding, basic editing (trimming and  concatenation), video scaling, video post-production effects, and  standards compliance (SMPTE, ITU).*
 
-`*FFmpeg*` *also includes other tools:* `*ffplay*`*, a simple media player, and* `*ffprobe*`*, a command-line tool to display media information.*
+`FFmpeg` *also includes other tools:* `ffplay`*, a simple media player, and* `ffprobe`*, a command-line tool to display media information.*
 
 
 
