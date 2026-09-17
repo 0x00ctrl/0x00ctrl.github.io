@@ -6,7 +6,7 @@ html: true
 ---
 
 
-Just a cybersecurity student, you can reach me on this mail -> [Hit me up](mailto:abraria747@gmail.com)
+Just a cybersecurity student.
 
 ***Some things I am experienced with***
 
