@@ -22,3 +22,14 @@
     color: #737475;
     text-shadow: 2px 2px 3px rgba(0,0,0, 0.7);
 }
+
+/* Cursor Trail Overlay */
+#cursor-canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  pointer-events: none; /* Prevents canvas from blocking clicks on links/buttons */
+  z-index: 9999; /* Displays on top of background elements */
+}
