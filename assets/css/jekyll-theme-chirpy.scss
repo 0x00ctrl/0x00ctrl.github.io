@@ -22,32 +22,3 @@
     color: #737475;
     text-shadow: 2px 2px 3px rgba(0,0,0, 0.7);
 }
-/* Layer 1: Background Canvas Animation */
-#cursor-canvas {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100vw;
-  height: 100vh;
-  pointer-events: none !important;
-  z-index: 1; /* Sits directly above html background */
-}
-
-/* Layer 2: Lift Sidebar and Post Cards above Canvas */
-#sidebar {
-  z-index: 10 !important; /* Sidebar stays fully above animation */
-  background-color: var(--sidebar-bg, #1b1b1e); /* Keeps background solid */
-}
-
-#main-wrapper {
-  position: relative;
-  z-index: 2; /* Main content container above canvas */
-}
-
-/* Keep Cards Opaque so animation only flows in space between them */
-.card, 
-#topbar-wrapper, 
-#panel-wrapper {
-  position: relative;
-  z-index: 3;
-}
