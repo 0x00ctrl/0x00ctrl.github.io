@@ -13,62 +13,6 @@
     <link rel="manifest" href="{{ '/assets/img/favicons/site.webmanifest' | relative_url }}">
   {% endif %}
 
-  <!-- Pre-load Mode Handler (Fixes layout flicker and fonts) -->
-  <script type="text/javascript">
-    class ModeToggle {
-      static get MODE_KEY() { return "mode"; }
-      static get MODE_ATTR() { return "data-mode"; }
-      static get DARK_MODE() { return "dark"; }
-      static get LIGHT_MODE() { return "light"; }
-      static get ID() { return "mode-toggle"; }
-
-      constructor() {
-        if (this.hasMode) {
-          if (this.isDarkMode) {
-            this.setDark();
-          } else {
-            this.setLight();
-          }
-        } else {
-          if (this.isSysDarkPrefer) {
-            this.setDark();
-          } else {
-            this.setLight();
-          }
-        }
-      }
-
-      get sysSeeking() {
-        return window.matchMedia("(prefers-color-scheme: dark)").matches;
-      }
-
-      get isDarkMode() {
-        return this.mode === ModeToggle.DARK_MODE;
-      }
-
-      get isLightMode() {
-        return this.mode === ModeToggle.LIGHT_MODE;
-      }
-
-      get hasMode() {
-        return this.mode !== null;
-      }
-
-      get mode() {
-        return localStorage.getItem(ModeToggle.MODE_KEY);
-      }
-
-      setDark() {
-        document.documentElement.setAttribute(ModeToggle.MODE_ATTR, ModeToggle.DARK_MODE);
-      }
-
-      setLight() {
-        document.documentElement.setAttribute(ModeToggle.MODE_ATTR, ModeToggle.LIGHT_MODE);
-      }
-    }
-    const modeToggle = new ModeToggle();
-  </script>
-
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="dns-prefetch" href="https://fonts.googleapis.com">
@@ -76,15 +20,15 @@
   <link rel="dns-prefetch" href="https://fonts.gstatic.com">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Source+Code+Pro:ital,wght@0,400;0,600;1,400;1,600&display=swap">
 
-  <!-- FontAwesome & Theme CSS -->
+  <!-- FontAwesome & Chirpy Theme CSS -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.5.2/css/all.min.css">
   <link rel="stylesheet" href="{{ '/assets/css/jekyll-theme-chirpy.css' | relative_url }}">
 
-  <!-- Chirpy Built-in Favicons & JS -->
+  <!-- Theme Internal Includes -->
   {% include favicons.html %}
   {% include js-selector.html %}
 
-  <!-- Custom Cursor Script -->
+  <!-- Custom Cursor Trail Script -->
   <script src="{{ '/assets/js/cursor.js' | relative_url }}" defer></script>
 
   {% include metadata-hook.html %}
