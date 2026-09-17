@@ -1,4 +1,7 @@
 document.addEventListener("DOMContentLoaded", () => {
+  // Prevent duplicate canvas creation
+  if (document.getElementById("cursor-canvas")) return;
+
   const canvas = document.createElement("canvas");
   canvas.id = "cursor-canvas";
   document.body.appendChild(canvas);
@@ -48,15 +51,11 @@ document.addEventListener("DOMContentLoaded", () => {
   window.addEventListener("resize", setupCanvas);
 
   function getTrailColor() {
-    // Detect Chirpy's theme mode attribute on <html> element
     const mode = document.documentElement.getAttribute("data-mode");
-    
-    // If explicit light mode, or system prefers light mode when no preference is set
     if (mode === "light" || (!mode && window.matchMedia("(prefers-color-scheme: light)").matches)) {
-      return "rgba(20, 20, 20, 0.75)"; // Dark trail for Light Mode
+      return "rgba(20, 20, 20, 0.65)"; // Dark trail in Light mode
     }
-    
-    return "rgba(240, 240, 240, 0.75)"; // Light trail for Dark Mode
+    return "rgba(240, 240, 240, 0.65)"; // Light trail in Dark mode
   }
 
   function update(t) {
@@ -78,7 +77,6 @@ document.addEventListener("DOMContentLoaded", () => {
       p.y += p.dy;
     });
 
-    // Dynamically set stroke color based on theme
     ctx.strokeStyle = getTrailColor();
     ctx.lineCap = "round";
     ctx.beginPath();
