@@ -6,10 +6,6 @@ html: true
 ---
 
 
-Just a cybersecurity student.
-
-***Some things I am experienced with***
-
 <div style="display: flex; flex-wrap: wrap; gap: 6px; justify-content: center;">
   <img src="https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white" alt="C" loading="eager" width="45" height="28" />
   <img src="https://img.shields.io/badge/c%2B%2B-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white" alt="C++" loading="eager" width="80" height="28" />
@@ -34,6 +30,110 @@ Just a cybersecurity student.
   <img src="https://img.shields.io/badge/blender-%23F5792A.svg?style=for-the-badge&logo=blender&logoColor=white" alt="Blender" loading="eager" width="100" height="28" />
 </div>
 
+
 ***My HTB Stats***
 
 [![barry0](https://www.hackthebox.eu/badge/image/1576035)](https://www.hackthebox.eu/home/users/profile/1576035)
+
+
+# Muhammad Abrar
+
+**Cybersecurity Student | Offensive Security | VAPT | Malware Analysis**
+
+📍 Islamabad, Pakistan
+📧 [abraria747@gmail.com](mailto:abraria747@gmail.com)
+
+
+---
+
+## About Me
+
+Cybersecurity student specializing in offensive security, VAPT, and malware analysis. Proficient in Arch and Debian-based Linux distributions, with experience in Windows internals, reverse engineering (x86 Assembly, C/C++), and evading EDR/ML defenses. Experienced in penetration testing, malware development and analysis, and CTF challenge design. Actively pursuing **CPTS** and **PNPT** certifications.
+
+---
+
+## Technical Skills
+
+| Category | Skills |
+|---|---|
+| **Operating Systems** | Arch Linux (daily driver), Kali Linux, Debian-based systems, Arch-based systems, Windows Server |
+| **Programming Languages** | C, C++, Python, Bash, x86 Assembly, WinAPI, NTDLL |
+| **Offensive Security Tools** | Metasploit, Nmap, Burp Suite, Wireshark, Netcat, etc. |
+| **Defensive Technologies** | ELK Stack (Elasticsearch, Logstash, Kibana), pfSense Firewall, Fleet Management, Sysmon |
+| **Virtualization & Containers** | Docker, VMware, VirtualBox |
+| **Focus Areas** | Network Penetration Testing, Privilege Escalation, Windows Malware Development, Malware Analysis, Active Directory Penetration Testing |
+
+---
+
+## Experience
+
+### Cybersecurity Intern — SNSKIES
+*Jul 2026 – Aug 2026*
+
+- Deployed and configured **Wazuh SIEM** on a dedicated external VM, and **MISP** threat intelligence platform on a second external VM, connecting to both over VPN.
+- Built a full local lab environment, including a FortiGate/Fortinet firewall, a Linux Ubuntu server, a Windows machine hosting Wazuh agents, and a Kali Linux box for attack simulation.
+- Integrated Wazuh, MISP, and the firewall into a unified SIEM/SOAR pipeline, correlating alerts and threat intelligence with automated response workflows.
+
+### Technical Team Member — Cyber Space Legion
+*Aug 2025 – Present (Hybrid)*
+
+- Developed and deployed reverse engineering and steganography challenges for university CTF competitions.
+- Audited challenge deployments and managed event infrastructure to ensure security and reliability.
+
+### CTF Player (Penetration Testing & Vulnerability Assessment) — Hack The Box
+*May 2025 – Present*
+
+- Enumerated and compromised 30+ Linux/Windows targets in simulated enterprise environments. Top 30 HTB (PK).
+- Applied advanced privilege escalation techniques and exploited real-world vulnerabilities to capture flags.
+
+### Malware Developer & Researcher (Personal Lab) — Independent Research
+*2023 – Present*
+
+- Focused on ethical malware development for Windows environments using C and C++.
+- Developed hands-on experience with Windows API (WinAPI) and NTDLL for low-level system interaction and process injection.
+- Implemented custom droppers and shellcode runners to study and apply evasion techniques and endpoint defense mechanisms.
+
+---
+
+## Projects
+
+### Memnet — AI-Powered Memory Forensics Platform
+`Python` `Flask` `Volatility 3` · 2026
+
+- Developed Memnet, a zero-footprint, transient memory forensics tool.
+- Integrated Volatility 3 with a Gemini-powered AI analyst for real-time artifact correlation, focusing on TOR Browser artifacts (browser history, URLs, deep web signatures via stitched VAD context).
+- Features: automated triage (PsList, NetStat, Malfind, Registry analysis), relationship mapping (process → network → file), and evidence integrity (MD5/SHA256 hashing of ingested dumps).
+
+### Behavioral Defense & Anomaly Detection (LOLBAS & Encrypted Malware)
+`ELK Stack` `Sysmon` · 2025
+
+- Deployed a full ELK stack across Windows endpoints; configured Elastic Agents and Sysmon to detect LOLBAS activity and unauthorized access.
+- Designed custom Kibana dashboards for real-time visualization of threat telemetry, encrypted malware signatures, and security alerts.
+
+### Automated Data Exfiltration via USB Rubber Ducky
+`Raspberry Pi Pico` `PowerShell`
+
+- Wrote a hardware keystroke injection payload (Raspberry Pi Pico as a USB Rubber Ducky).
+- Scripted automated scanning for sensitive documents (.pptx, .xlsx, .docx) and exfiltration to a remote C2 server via SCP.
+
+### CTF Challenge Creation & Forensics
+`C++` `Assembly` · University Competition, 2024–2025
+
+- Designed original challenges in Reverse Engineering, Malware Analysis, and Multimedia Forensics.
+- Authored steganography challenges (audio, image, video containers) and custom binaries with anti-analysis logic (C++/Assembly).
+
+---
+
+## Education
+
+**B.S. in Cybersecurity** — FAST NUCES, Islamabad, Pakistan
+*2023 – Present*
+
+---
+
+## Certifications
+
+- **Practical Ethical Hacker (PEH)** — TCM Security (July 2024)
+- **Windows Privilege Escalation** — TCM Security (July 2024)
+- **CPTS** — Hack The Box *(in progress)*
+- **PNPT** — TCM Security *(in progress)*
