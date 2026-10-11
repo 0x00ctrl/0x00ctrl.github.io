@@ -48,7 +48,7 @@ html: true
 
 ## About Me
 
-Cybersecurity student specializing in offensive security, VAPT, and malware analysis. Proficient in Arch and Debian-based Linux distributions, with experience in Windows internals, reverse engineering (x86 Assembly, C/C++), and evading EDR/ML defenses. Experienced in penetration testing, malware development and analysis, and CTF challenge design. Actively pursuing **CPTS** and **PNPT** certifications.
+Cybersecurity student specializing in offensive security, VAPT, and malware analysis. Proficient in Arch and Debian-based Linux distributions, with experience in Windows internals, reverse engineering (x86 Assembly, C/C++), and evading EDR/ML defenses. Experienced in penetration testing, malware development and analysis, and CTF challenge design. Actively pursuing **HTB CPTS** certification.
 
 ---
 
