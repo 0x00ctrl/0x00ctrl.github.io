@@ -59,7 +59,7 @@ Cybersecurity student specializing in offensive security, VAPT, and malware anal
 | **Operating Systems** | Arch Linux (daily driver), Kali Linux, Debian-based systems, Arch-based systems, Windows Server |
 | **Programming Languages** | C, C++, Python, Bash, x86 Assembly, WinAPI, NTDLL |
 | **Offensive Security Tools** | Metasploit, Nmap, Burp Suite, Wireshark, Netcat, etc. |
-| **Defensive Technologies** | ELK Stack (Elasticsearch, Logstash, Kibana), pfSense Firewall, Fleet Management, Sysmon |
+| **Defensive Technologies** | ELK Stack (Elasticsearch, Logstash, Kibana), Fortinet, FortiGate, MISP, Wazuh, pfSense Firewall, Fleet Management, Sysmon |
 | **Virtualization & Containers** | Docker, VMware, VirtualBox |
 | **Focus Areas** | Network Penetration Testing, Privilege Escalation, Windows Malware Development, Malware Analysis, Active Directory Penetration Testing |
 
