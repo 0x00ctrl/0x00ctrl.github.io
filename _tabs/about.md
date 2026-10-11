@@ -133,7 +133,8 @@ Cybersecurity student specializing in offensive security, VAPT, and malware anal
 
 ## Certifications
 
-- **Practical Ethical Hacker (PEH)** — TCM Security (July 2024)
-- **Windows Privilege Escalation** — TCM Security (July 2024)
+- **Practical Ethical Hacker (PEH)** — TCM Security
+- **Windows Privilege Escalation** — TCM Security
+- **Belkasoft Advanced Digital Forensics** — Belkasoft
+- **CSI Linux Certified Investigator** — CSI Linux
 - **CPTS** — Hack The Box *(in progress)*
-- **PNPT** — TCM Security *(in progress)*
