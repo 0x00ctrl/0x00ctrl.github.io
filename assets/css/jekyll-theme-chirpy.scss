@@ -14,26 +14,43 @@ html:not([data-mode]) {
   --main-bg: #2e3440 !important;
   --mask-bg: #3b4252 !important;
   --main-border-color: #434c5e !important;
+  
+  /* Topbar Fixes for Better Contrast */
+  --topbar-bg: #3b4252 !important;
+  --topbar-text-color: #eceff4 !important;
+  --search-wrapper-bg: #2e3440 !important;
+  --search-bg: #2e3440 !important;
+
+  /* Navigation & Sidebar */
   --sidebar-bg: #2b303c !important;
   --sidebar-active-color: #88c0d0 !important;
   --nav-cursor-color: #88c0d0 !important;
+
+  /* Cards & Containers */
   --card-bg: #3b4252 !important;
   --card-header-bg: #434c5e !important;
   --tb-odd-bg: #3b4252 !important;
   --tb-even-bg: #2e3440 !important;
+
+  /* Typography & Links */
   --text-color: #eceff4 !important;
   --text-muted-color: #d8dee9 !important;
   --heading-color: #88c0d0 !important;
   --link-color: #88c0d0 !important;
   --link-underline-color: #5e81ac !important;
+
+  /* Buttons & Tags */
   --tag-bg: #434c5e !important;
   --tag-hover: #4c566a !important;
   --btn-share-color: #d8dee9 !important;
   --btn-paginator-bg: #3b4252 !important;
+
+  /* Code & Highlights */
   --code-bg: #3b4252 !important;
   --code-header-bg: #434c5e !important;
   --highlight-bg: #2e3440 !important;
 }
+
 /* Fixed Sidebar Background (Prevents image reload/flicker) */
 #sidebar {
   position: fixed;
@@ -59,7 +76,7 @@ html:not([data-mode]) {
   will-change: transform;
 }
 
-/* Nav Item Bolding Isolation (Fixes all tabs bolding when Categories is selected) */
+/* Nav Item Bolding Isolation */
 #sidebar .nav-item {
   font-weight: normal;
 }
@@ -78,5 +95,3 @@ html:not([data-mode]) {
   color: #737475;
   text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.7);
 }
-
-@import "variables-hook";
