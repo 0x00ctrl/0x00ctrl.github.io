@@ -7,51 +7,52 @@
 {%- endif -%}
 ';
 /* ==========================================
-   Nord Frost Theme Overrides for Chirpy
+   Cyberpunk / Teal Accent Theme Overrides
    ========================================== */
 html[data-mode="dark"],
 html:not([data-mode]) {
-  --main-bg: #2e3440 !important;
-  --mask-bg: #3b4252 !important;
-  --main-border-color: #434c5e !important;
-  
-  /* Topbar Fixes for Better Contrast */
-  --topbar-bg: #3b4252 !important;
-  --topbar-text-color: #eceff4 !important;
-  --search-wrapper-bg: #2e3440 !important;
-  --search-bg: #2e3440 !important;
+  /* Core Background & Surfaces */
+  --main-bg: #12151c !important;
+  --mask-bg: #1a1e29 !important;
+  --main-border-color: #212635 !important;
+
+  /* Topbar & Search */
+  --topbar-bg: #12151c !important;
+  --topbar-text-color: #c0c7d5 !important;
+  --search-wrapper-bg: #1a1e29 !important;
+  --search-bg: #1a1e29 !important;
 
   /* Navigation & Sidebar */
-  --sidebar-bg: #2b303c !important;
-  --sidebar-active-color: #88c0d0 !important;
-  --nav-cursor-color: #88c0d0 !important;
+  --sidebar-bg: #12151c !important;
+  --sidebar-active-color: #00bcd4 !important;
+  --nav-cursor-color: #00bcd4 !important;
 
   /* Cards & Containers */
-  --card-bg: #3b4252 !important;
-  --card-header-bg: #434c5e !important;
-  --tb-odd-bg: #3b4252 !important;
-  --tb-even-bg: #2e3440 !important;
+  --card-bg: #191e28 !important;
+  --card-header-bg: #1f2533 !important;
+  --tb-odd-bg: #191e28 !important;
+  --tb-even-bg: #12151c !important;
 
   /* Typography & Links */
-  --text-color: #eceff4 !important;
-  --text-muted-color: #d8dee9 !important;
-  --heading-color: #88c0d0 !important;
-  --link-color: #88c0d0 !important;
-  --link-underline-color: #5e81ac !important;
+  --text-color: #c0c7d5 !important;
+  --text-muted-color: #828b9d !important;
+  --heading-color: #ffffff !important;
+  --link-color: #00bcd4 !important;
+  --link-underline-color: #008394 !important;
 
   /* Buttons & Tags */
-  --tag-bg: #434c5e !important;
-  --tag-hover: #4c566a !important;
-  --btn-share-color: #d8dee9 !important;
-  --btn-paginator-bg: #3b4252 !important;
+  --tag-bg: #1f2533 !important;
+  --tag-hover: #00bcd4 !important;
+  --btn-share-color: #c0c7d5 !important;
+  --btn-paginator-bg: #191e28 !important;
 
   /* Code & Highlights */
-  --code-bg: #3b4252 !important;
-  --code-header-bg: #434c5e !important;
-  --highlight-bg: #2e3440 !important;
+  --code-bg: #191e28 !important;
+  --code-header-bg: #1f2533 !important;
+  --highlight-bg: #12151c !important;
 }
 
-/* Fixed Sidebar Background (Prevents image reload/flicker) */
+/* Fixed Sidebar Background */
 #sidebar {
   position: fixed;
   top: 0;
