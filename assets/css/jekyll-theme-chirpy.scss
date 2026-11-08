@@ -6,7 +6,34 @@
 .bundle
 {%- endif -%}
 ';
-
+/* ==========================================
+   Nord Frost Theme Overrides for Chirpy
+   ========================================== */
+html[data-mode="dark"],
+html:not([data-mode]) {
+  --main-bg: #2e3440 !important;
+  --mask-bg: #3b4252 !important;
+  --main-border-color: #434c5e !important;
+  --sidebar-bg: #2b303c !important;
+  --sidebar-active-color: #88c0d0 !important;
+  --nav-cursor-color: #88c0d0 !important;
+  --card-bg: #3b4252 !important;
+  --card-header-bg: #434c5e !important;
+  --tb-odd-bg: #3b4252 !important;
+  --tb-even-bg: #2e3440 !important;
+  --text-color: #eceff4 !important;
+  --text-muted-color: #d8dee9 !important;
+  --heading-color: #88c0d0 !important;
+  --link-color: #88c0d0 !important;
+  --link-underline-color: #5e81ac !important;
+  --tag-bg: #434c5e !important;
+  --tag-hover: #4c566a !important;
+  --btn-share-color: #d8dee9 !important;
+  --btn-paginator-bg: #3b4252 !important;
+  --code-bg: #3b4252 !important;
+  --code-header-bg: #434c5e !important;
+  --highlight-bg: #2e3440 !important;
+}
 /* Fixed Sidebar Background (Prevents image reload/flicker) */
 #sidebar {
   position: fixed;
