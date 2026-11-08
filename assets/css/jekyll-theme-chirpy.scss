@@ -7,7 +7,111 @@
 {%- endif -%}
 ';
 
-/* Fixed Sidebar Background (Prevents image reload/flicker) */
+/* ==========================================
+   Teal Dark Theme (matches 2nd screenshot)
+   ========================================== */
+html[data-mode="dark"],
+html:not([data-mode]) {
+  /* Core Backgrounds - deep teal-black */
+  --main-bg: #0b1517 !important;
+  --mask-bg: #0f1d20 !important;
+  --main-border-color: #16393c !important;
+
+  /* Topbar & Search */
+  --topbar-bg: #0b1517 !important;
+  --topbar-text-color: #5fb8b0 !important;
+  --search-wrapper-bg: #0c2326 !important;
+  --search-bg: #0c2326 !important;
+
+  /* Navigation & Sidebar */
+  --sidebar-bg: #0a1417 !important;
+  --sidebar-active-color: #2ed3c1 !important;
+  --nav-cursor-color: #2ed3c1 !important;
+
+  /* Cards & Containers - teal-tinted surfaces */
+  --card-bg: #0c2226 !important;
+  --card-header-bg: #0f2b2f !important;
+  --tb-odd-bg: #0c2226 !important;
+  --tb-even-bg: #0a1c1f !important;
+
+  /* Typography & Links */
+  --text-color: #a9ccc8 !important;
+  --text-muted-color: #6f9b98 !important;
+  --heading-color: #d5f1ee !important;
+  --link-color: #2ed3c1 !important;
+  --link-underline-color: #14766f !important;
+
+  /* Buttons & Tags */
+  --tag-bg: #0e3d3f !important;
+  --tag-hover: #2ed3c1 !important;
+  --btn-share-color: #7fc7bf !important;
+  --btn-paginator-bg: #0c2226 !important;
+
+  /* Code & Highlights */
+  --code-bg: #0c2226 !important;
+  --code-header-bg: #0f2b2f !important;
+  --highlight-bg: #0b1517 !important;
+}
+
+/* Cards: teal border like the screenshot */
+html[data-mode="dark"] .card,
+html:not([data-mode]) .card {
+  border: 1px solid #1a5655 !important;
+}
+
+/* Search box: teal outline */
+html[data-mode="dark"] #search-wrapper,
+html:not([data-mode]) #search-wrapper,
+html[data-mode="dark"] .search-wrapper,
+html:not([data-mode]) .search-wrapper {
+  border: 1px solid #1d6b67 !important;
+}
+
+/* Section headings in the right panel (Recently Updated, Trending Tags) */
+#panel-wrapper .panel-heading,
+#panel-wrapper h2,
+#panel-wrapper .panel-title {
+  color: #2ed3c1 !important;
+}
+
+/* Recently Updated links */
+#panel-wrapper a {
+  color: #5fd8cb !important;
+}
+
+/* Breadcrumb "Home" */
+#breadcrumb a,
+#breadcrumb span {
+  color: #5fb8b0 !important;
+}
+
+/* Footer */
+#footer,
+#footer .footer-content,
+#footer span {
+  color: #6f9b98 !important;
+}
+
+#footer a {
+  color: #2ed3c1 !important;
+}
+
+/* Tag Pills: filled teal pills like the screenshot */
+.post-tag, .tag, #access-tags .tag {
+  background-color: #0e3d3f !important;
+  color: #5fd8cb !important;
+  border: 1px solid #1c6e6a !important;
+  border-radius: 999px !important;
+  padding: 0.25rem 0.75rem !important;
+}
+
+.post-tag:hover, .tag:hover, #access-tags .tag:hover {
+  color: #04171a !important;
+  background-color: #2ed3c1 !important;
+  border-color: #2ed3c1 !important;
+}
+
+/* Fixed Sidebar Background - mountain image tinted teal */
 #sidebar {
   position: fixed;
   top: 0;
@@ -15,6 +119,7 @@
   height: 100%;
   overflow: hidden;
   z-index: 10;
+  background-color: #0a1417;
 }
 
 #sidebar::before {
@@ -28,26 +133,51 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  filter: grayscale(100%) sepia(100%) hue-rotate(125deg) saturate(260%) brightness(0.75);
   z-index: -1;
   will-change: transform;
 }
 
-/* Nav Item Bolding Isolation (Fixes all tabs bolding when Categories is selected) */
+/* Nav Items */
 #sidebar .nav-item {
   font-weight: normal;
 }
 
+#sidebar .nav-link {
+  color: #2fc2b0 !important;
+  border-radius: 6px;
+}
+
+#sidebar .nav-link i,
+#sidebar .nav-link .fa-solid,
+#sidebar .nav-link .fa-regular {
+  color: #2fc2b0 !important;
+}
+
+/* Active nav: filled teal pill with dark text (HOME in screenshot) */
 #sidebar .nav-item.active .nav-link {
   font-weight: 700;
+  background-color: #14a89a !important;
+  color: #04171a !important;
+}
+
+#sidebar .nav-item.active .nav-link i {
+  color: #04171a !important;
 }
 
 /* Title & Subtitle Styling */
 #sidebar .site-title {
-  color: #d4d6d9;
-  text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+  color: #2ed3c1;
+  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.5);
 }
 
 #sidebar .site-subtitle {
-  color: #737475;
-  text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.7);
+  color: #a9ccc8;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
+}
+
+/* Sidebar bottom social icons */
+#sidebar .sidebar-bottom a,
+#sidebar .sidebar-bottom i {
+  color: #2fc2b0 !important;
 }
