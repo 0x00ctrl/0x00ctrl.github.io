@@ -7,52 +7,64 @@
 {%- endif -%}
 ';
 /* ==========================================
-   Cyberpunk / Teal Accent Theme Overrides
+   Exact Cyberpunk / Solarized Slate Theme
    ========================================== */
 html[data-mode="dark"],
 html:not([data-mode]) {
   /* Core Background & Surfaces */
-  --main-bg: #12151c !important;
-  --mask-bg: #1a1e29 !important;
-  --main-border-color: #212635 !important;
+  --main-bg: #161920 !important;
+  --mask-bg: #1d212a !important;
+  --main-border-color: #272c38 !important;
 
   /* Topbar & Search */
-  --topbar-bg: #12151c !important;
-  --topbar-text-color: #c0c7d5 !important;
-  --search-wrapper-bg: #1a1e29 !important;
-  --search-bg: #1a1e29 !important;
+  --topbar-bg: #161920 !important;
+  --topbar-text-color: #9da5b4 !important;
+  --search-wrapper-bg: #1d212a !important;
+  --search-bg: #1d212a !important;
 
   /* Navigation & Sidebar */
-  --sidebar-bg: #12151c !important;
-  --sidebar-active-color: #00bcd4 !important;
-  --nav-cursor-color: #00bcd4 !important;
+  --sidebar-bg: #161920 !important;
+  --sidebar-active-color: #25b0bc !important;
+  --nav-cursor-color: #25b0bc !important;
 
   /* Cards & Containers */
-  --card-bg: #191e28 !important;
-  --card-header-bg: #1f2533 !important;
-  --tb-odd-bg: #191e28 !important;
-  --tb-even-bg: #12151c !important;
+  --card-bg: #20242e !important;
+  --card-header-bg: #272c38 !important;
+  --tb-odd-bg: #20242e !important;
+  --tb-even-bg: #161920 !important;
 
   /* Typography & Links */
-  --text-color: #c0c7d5 !important;
-  --text-muted-color: #828b9d !important;
-  --heading-color: #ffffff !important;
-  --link-color: #00bcd4 !important;
-  --link-underline-color: #008394 !important;
+  --text-color: #abb2bf !important;
+  --text-muted-color: #636d83 !important;
+  --heading-color: #e5e9f0 !important;
+  --link-color: #25b0bc !important;
+  --link-underline-color: #1b7a83 !important;
 
   /* Buttons & Tags */
-  --tag-bg: #1f2533 !important;
-  --tag-hover: #00bcd4 !important;
-  --btn-share-color: #c0c7d5 !important;
-  --btn-paginator-bg: #191e28 !important;
+  --tag-bg: #272c38 !important;
+  --tag-hover: #25b0bc !important;
+  --btn-share-color: #abb2bf !important;
+  --btn-paginator-bg: #20242e !important;
 
   /* Code & Highlights */
-  --code-bg: #191e28 !important;
-  --code-header-bg: #1f2533 !important;
-  --highlight-bg: #12151c !important;
+  --code-bg: #20242e !important;
+  --code-header-bg: #272c38 !important;
+  --highlight-bg: #161920 !important;
 }
 
-/* Fixed Sidebar Background */
+/* Fix Tag Button Styles to match Screenshot 1 */
+.post-tag, .tag, #access-tags .tag {
+  background-color: transparent !important;
+  color: #636d83 !important;
+  border: none !important;
+}
+
+.post-tag:hover, .tag:hover, #access-tags .tag:hover {
+  color: #25b0bc !important;
+  background-color: transparent !important;
+}
+
+/* Sidebar Custom Styling */
 #sidebar {
   position: fixed;
   top: 0;
@@ -77,13 +89,14 @@ html:not([data-mode]) {
   will-change: transform;
 }
 
-/* Nav Item Bolding Isolation */
+/* Nav Link Hover & Active State */
 #sidebar .nav-item {
   font-weight: normal;
 }
 
 #sidebar .nav-item.active .nav-link {
   font-weight: 700;
+  color: #25b0bc !important;
 }
 
 /* Title & Subtitle Styling */
