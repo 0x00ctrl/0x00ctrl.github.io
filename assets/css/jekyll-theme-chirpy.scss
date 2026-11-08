@@ -7,64 +7,64 @@
 {%- endif -%}
 ';
 /* ==========================================
-   Exact Cyberpunk / Solarized Slate Theme
+   Exact Target Dark / Teal Theme Overrides
    ========================================== */
 html[data-mode="dark"],
 html:not([data-mode]) {
-  /* Core Background & Surfaces */
-  --main-bg: #161920 !important;
-  --mask-bg: #1d212a !important;
-  --main-border-color: #272c38 !important;
+  /* Core Backgrounds - True deep dark */
+  --main-bg: #111111 !important;
+  --mask-bg: #181818 !important;
+  --main-border-color: #262626 !important;
 
   /* Topbar & Search */
-  --topbar-bg: #161920 !important;
-  --topbar-text-color: #9da5b4 !important;
-  --search-wrapper-bg: #1d212a !important;
-  --search-bg: #1d212a !important;
+  --topbar-bg: #111111 !important;
+  --topbar-text-color: #a0a0a0 !important;
+  --search-wrapper-bg: #181818 !important;
+  --search-bg: #181818 !important;
 
   /* Navigation & Sidebar */
-  --sidebar-bg: #161920 !important;
-  --sidebar-active-color: #25b0bc !important;
-  --nav-cursor-color: #25b0bc !important;
+  --sidebar-bg: #111111 !important;
+  --sidebar-active-color: #00bcd4 !important;
+  --nav-cursor-color: #00bcd4 !important;
 
-  /* Cards & Containers */
-  --card-bg: #20242e !important;
-  --card-header-bg: #272c38 !important;
-  --tb-odd-bg: #20242e !important;
-  --tb-even-bg: #161920 !important;
+  /* Cards & Containers - Flat dark surface */
+  --card-bg: #1a1a1a !important;
+  --card-header-bg: #222222 !important;
+  --tb-odd-bg: #1a1a1a !important;
+  --tb-even-bg: #111111 !important;
 
   /* Typography & Links */
-  --text-color: #abb2bf !important;
-  --text-muted-color: #636d83 !important;
-  --heading-color: #e5e9f0 !important;
-  --link-color: #25b0bc !important;
-  --link-underline-color: #1b7a83 !important;
+  --text-color: #c0c0c0 !important;
+  --text-muted-color: #707070 !important;
+  --heading-color: #ffffff !important;
+  --link-color: #00bcd4 !important;
+  --link-underline-color: #008394 !important;
 
   /* Buttons & Tags */
-  --tag-bg: #272c38 !important;
-  --tag-hover: #25b0bc !important;
-  --btn-share-color: #abb2bf !important;
-  --btn-paginator-bg: #20242e !important;
+  --tag-bg: #222222 !important;
+  --tag-hover: #00bcd4 !important;
+  --btn-share-color: #c0c0c0 !important;
+  --btn-paginator-bg: #1a1a1a !important;
 
   /* Code & Highlights */
-  --code-bg: #20242e !important;
-  --code-header-bg: #272c38 !important;
-  --highlight-bg: #161920 !important;
+  --code-bg: #1a1a1a !important;
+  --code-header-bg: #222222 !important;
+  --highlight-bg: #111111 !important;
 }
 
-/* Fix Tag Button Styles to match Screenshot 1 */
+/* Tag Pill Clean Text Style */
 .post-tag, .tag, #access-tags .tag {
   background-color: transparent !important;
-  color: #636d83 !important;
+  color: #707070 !important;
   border: none !important;
 }
 
 .post-tag:hover, .tag:hover, #access-tags .tag:hover {
-  color: #25b0bc !important;
+  color: #00bcd4 !important;
   background-color: transparent !important;
 }
 
-/* Sidebar Custom Styling */
+/* Fixed Sidebar Background */
 #sidebar {
   position: fixed;
   top: 0;
@@ -89,23 +89,23 @@ html:not([data-mode]) {
   will-change: transform;
 }
 
-/* Nav Link Hover & Active State */
+/* Nav Item Bolding Isolation */
 #sidebar .nav-item {
   font-weight: normal;
 }
 
 #sidebar .nav-item.active .nav-link {
   font-weight: 700;
-  color: #25b0bc !important;
+  color: #00bcd4 !important;
 }
 
 /* Title & Subtitle Styling */
 #sidebar .site-title {
-  color: #d4d6d9;
+  color: #ffffff;
   text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
 }
 
 #sidebar .site-subtitle {
-  color: #737475;
+  color: #a0a0a0;
   text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.7);
 }
