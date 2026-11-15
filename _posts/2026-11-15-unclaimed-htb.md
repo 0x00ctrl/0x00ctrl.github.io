@@ -3,8 +3,6 @@ title: "HTB Unclaimed – Full Writeup"
 date: 2026-11-15 20:00:00 +0500
 categories: [HTB Machines, Windows]
 tags: [htb, machine, medium, mssql, windows]
-layout: gated
-password: "0x00ctrl"
 ---
 
 **OS:** Windows  
